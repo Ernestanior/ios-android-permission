@@ -98,6 +98,7 @@ request(Platform.OS === 'ios' ? PERMISSIONS.IOS.CAMERA : PERMISSIONS.ANDROID.CAM
       });
 
 return type and meaning:
+
 ![image](https://github.com/Ernestanior/ios-android-permission/assets/36638557/3fd851b4-889c-4d74-8680-69d5ba227a7c)
 
 
