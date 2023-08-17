@@ -72,6 +72,8 @@ go to android/app/src/main/AndroidManifest.xml and copy the code
       <uses-permission android:name="android.permission.READ_CALENDAR" />
       <uses-permission android:name="android.permission.READ_CALL_LOG" />
       <uses-permission android:name="android.permission.READ_CONTACTS" />
+      <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+      <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
       <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
       <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
       <uses-permission android:name="android.permission.READ_PHONE_STATE" />
