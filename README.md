@@ -60,9 +60,8 @@ go to ios/<project.name>/Info.plist, copy below code.
 
 go to android/app/src/main/AndroidManifest.xml and copy the code 
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.myawesomeapp">
-      <!-- 🚨 Keep only the permissions used in your app 🚨 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"package="com.myawesomeapp">
+
       <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
       <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -92,8 +91,6 @@ go to android/app/src/main/AndroidManifest.xml and copy the code
       <uses-permission android:name="android.permission.WRITE_CONTACTS" />
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
       <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
-   
-      <!-- … -->
 
 </manifest>
 
